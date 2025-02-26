@@ -20,7 +20,24 @@
         </div>
         <div class="parent-login">
             <form class="login-card">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHfF951d0TLpIMxc6KKDdA4QobUyLcgv6Zx0m3ZYMBqZvtFw/viewform?embedded=true" width="400" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <h1>Sign In</h1>
+                <div class="userInput">
+                    <input type="text" name="email"
+                           placeholder="Email or phone number"
+                           onfocus="inputOnFocus(this)"
+                        onblur="inputOnBlur(this)" />
+                </div>
+                <div class="userInput">
+                    <input type="password"
+                           name="password" 
+                           placeholder="Password" 
+                           onfocus="inputOnFocus(this)"
+                        onblur="inputOnBlur(this)" />
+                </div>
+                <div>
+                    <button class="btn-login">Sign In</button>
+                </div>
+                <div class="remMe">
                     <div>
                         <input type="checkbox">
                         <label class="cText">Remember me</label>
